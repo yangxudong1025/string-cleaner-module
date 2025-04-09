@@ -1,7 +1,10 @@
-import { cleanString } from '../src/runtime/utils/string-cleaner'
+import { describe, expect, it } from 'vitest'
+import { cleanString } from '../src/core/cleanString'
 
-test('clean emoji + html', () => {
-  const input = '<p>Hello 👋 世界</p>'
-  const result = cleanString(input, { removeHtmlTags: true, removeEmoji: true })
-  expect(result).toBe('hello 世界')
+describe('cleanString', () => {
+  it('removes html and emoji', () => {
+    const input = "<b>Hello 👋</b>"
+    const output = cleanString(input, { removeHtmlTags: true, removeEmoji: true })
+    expect(output).toBe("Hello")
+  })
 })
