@@ -33,7 +33,7 @@
     "url": "https://github.com/yangxudong1025/string-cleaner-module"
   },
   "devDependencies": {
-    "tsup": "^7.2.0",
+    "tsup": "^8.4.0",
     "vitest": "^1.0.0",
     "nuxt": "^3.10.0"
   }
