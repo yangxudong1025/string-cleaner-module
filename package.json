@@ -1,0 +1,20 @@
+{
+  "name": "string-cleaner-module",
+  "version": "1.0.0",
+  "main": "src/module.ts",
+  "exports": {
+    ".": "./src/module.ts"
+  },
+  "files": ["src", "README.md"],
+  "keywords": ["nuxt", "string", "cleaner", "slug", "module"],
+  "types": "./src/module.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yangxudong1025/string-cleaner-module"
+  },
+  "scripts": {
+    "dev": "nuxi dev playground",
+    "build": "nuxt-module-build",
+    "test": "vitest run"
+  }
+}
