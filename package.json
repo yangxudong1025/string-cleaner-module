@@ -1,6 +1,6 @@
 {
   "name": "string-cleaner-module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Universal string cleaning utility for Nuxt, Vue, React and Node.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,8 +15,18 @@
     "dev": "nuxi dev playground/nuxt",
     "test": "vitest"
   },
-  "files": ["src", "README.md"],
-  "keywords": ["string", "clean", "nuxt", "vue", "react", "utility"],
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "keywords": [
+    "string",
+    "clean",
+    "nuxt",
+    "vue",
+    "react",
+    "utility"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
